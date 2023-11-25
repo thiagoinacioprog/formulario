@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src='./js/main.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Alunos</h1>
+    <form class="form" action="">
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" value="" required>
+        </div>
+        <div class="form-group">
+            <label for="sexo">Sexo</label>
+            <input type="text" id="sexo" value="">
+        </div>
+        <div class="form-group">
+            <label for="turma">Turma</label>
+            <input type="text" id="turma" value="">
+        </div>
+        <div class="form-group">
+            <label for="av1">Av1</label>
+            <input type="text" id="av1" value="">
+        </div>
+        <div class="form-group">
+            <label for="av2">Av2</label>
+            <input type="text" id="av2" value="">
+        </div>
+        <button class="btn btn-primary" type="button" onclick="save()">Salvar</button>
+
+    </form>
+
+    <hr>
+
+    <table class="table table-hover table-bordered">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Turma</th>
+                <th>Av1</th>
+                <th>Av2</th>
+                <th>Editar</th>
+                <th>Deletar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rodrigo</td>
+                <td>Masculino</td>
+                <td>Fullstack</td>
+                <td>5</td>
+                <td>3,5</td>
+                <td></td>
+                <td></td>
+
+            </tr>
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>
